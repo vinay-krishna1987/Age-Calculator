@@ -9,14 +9,16 @@
    width: 100%;
    min-height: 100vh;
    color: rgba(134, 77, 181, 0.899);
-   padding: 10px;
+   
    font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .calculator{
    width: 100%;
    max-width: 600px;
-   margin-left: 10%;
-   margin-top: 10%;
+   
 }
 .calculator h1{
    font-size: 3rem;
@@ -45,6 +47,8 @@
    font-size: 18px;
    border-radius: 10px;
    position: relative;
+   width: 40%;
+   margin-bottom: 20px;
 }
 .input-box button{
    background: rgba(255, 13, 203, 0.622);
@@ -70,7 +74,7 @@
    cursor: pointer;
 }
 #result{
-   font-size: 1.2;
+   font-size: 1.2rem;
    font-weight: bold;
    text-align: center;
 }
@@ -89,6 +93,7 @@
 
    .input-box input, .input-box button {
        font-size: 0.9rem;
+       width: 40%;
    }
 }
 
@@ -99,10 +104,12 @@
 
    .input-box {
        padding: 10px;
+       
    }
 
    .input-box input, .input-box button {
        font-size: 0.8rem;
+       width: 40%;
    }
 
    #result {
